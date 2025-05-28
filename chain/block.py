@@ -22,10 +22,3 @@ class Block:
 
     def __generate_hash(self) -> str:
         return Crypto.double_sha256(self.__serialize())
-
-    def show_block_info(self) -> None:
-        """
-        Mostra a transação atual armazenada
-        """
-        print(f'Block Hash: {self.hash}')
-        print(f'Current Transaction: {self.transaction.hash}')
