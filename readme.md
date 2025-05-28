@@ -1,4 +1,4 @@
-# 🧠 Simple Blockchain
+# 🧠 Minimalist Blockchain
 
 Este é um projeto pessoal de estudo e aprendizado sobre os conceitos de blockchain. O objetivo é compreender como funcionam os blocos, as transações, o hashing, a mineração (Proof of Work) e a integridade dos dados em uma rede blockchain.
 
@@ -11,8 +11,6 @@ Este é um projeto pessoal de estudo e aprendizado sobre os conceitos de blockch
 * Criação de blockchain simples
 * Adição de blocos contendo transações
 * Geração de hashes usando SHA-256
-* Validação de integridade dos blocos
-* Simulação de mineração (Proof of Work)
 
 ---
 
