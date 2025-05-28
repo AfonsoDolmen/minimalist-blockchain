@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 from .transactions import Transaction
 from utils.crypto import Crypto
 
@@ -11,7 +11,7 @@ class Block:
     def __init__(self, previous_hash: str, transaction: Transaction) -> None:
         self.previous_hash = previous_hash
         self.transaction = transaction
-        self.created_at = time.time()
+        self.created_at = datetime.now()
         self.hash = self.__generate_hash()
 
     def __repr__(self) -> str:
