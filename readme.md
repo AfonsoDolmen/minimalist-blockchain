@@ -11,8 +11,6 @@ Este é um projeto pessoal de estudo e aprendizado sobre os conceitos de blockch
 * Criação de blockchain simples
 * Adição de blocos contendo transações
 * Geração de hashes usando SHA-256
-* Validação de integridade dos blocos
-* Simulação de mineração (Proof of Work)
 
 ---
 
